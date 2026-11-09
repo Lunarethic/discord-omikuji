@@ -13,4 +13,4 @@ intents.message_content = True
 
 client = Client(intents=intents)
 #Put your discord bot token here
-client.run('MTU2OTE0NzIxMDYyNzY4MjU1Ng.G15Qnh.fvEHELxzvIWUmreMvc1wZYGYc38Hpq48qXmDV8')
+client.run('')
