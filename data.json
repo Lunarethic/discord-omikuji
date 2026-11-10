@@ -1,0 +1,218 @@
+{
+    "1": {
+        "character": "Buwad",
+        "alignment": "Small Luck",
+        "intro": "you got fished",
+        "flavortext": "You have been graced by fish."
+    },
+
+    "2": {
+        "character": "Snowie",
+        "alignment": "Future Blessing",
+        "intro": "Dont get cold",
+        "flavortext": "Get cold"
+    },
+
+    "3": {
+        "character": "Luneth / Lethe",
+        "alignment": "Middle Luck",
+        "intro": "Wow its two!",
+        "flavortext": "Double the characters this time?"
+    },
+
+    "4": {
+        "character": "Yolla",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "5": {
+        "character": "Asagi Coresta",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "6": {
+        "character": "Flan / Nemu",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "7": {
+        "character": "Narpy",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "8": {
+        "character": "Sorairo Aki",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "9": {
+        "character": "Fuwa",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "10": {
+        "character": "Hanako / Ramii",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "11": {
+        "character": "Remi / Akashi",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "12": {
+        "character": "Moff",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "13": {
+        "character": "Yun / Suko",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "14": {
+        "character": "Vivi",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "15": {
+        "character": "Kuro",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "16": {
+        "character": "Owl / Iog",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "17": {
+        "character": "Meliach",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "18": {
+        "character": "Tsubomi",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "19": {
+        "character": "Watta / Zoe",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "20": {
+        "character": "Tato",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "21": {
+        "character": "Trita",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "22": {
+        "character": "Hako / Yuzuki",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "23": {
+        "character": "Tsukino",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "24": {
+        "character": "Iskra",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "25": {
+        "character": "KeiCyan / Bell",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "26": {
+        "character": "Ryne",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "27": {
+        "character": "Asterine / Neko",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "28": {
+        "character": "Cradle",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "29": {
+        "character": "Aloy",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "30": {
+        "character": "VIVIT",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    },
+
+    "31": {
+        "character": "Drifter / Kero",
+        "alignment": "No Alignment",
+        "intro": "You pulled for this!",
+        "flavortext": "Input Text"
+    }
+}
