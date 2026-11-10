@@ -22,6 +22,7 @@ with open(SCRIPT_DIR/"data.json", "r", encoding="utf-8") as file: data = json.lo
 
 #Declaring the Omikuji Function for the bot to use
 def gacha_Omikuji():
+    #RNGpick = "3"
     RNGpick = random.choice(list(data.keys()))
     entryKEY = data[RNGpick]
 
@@ -31,10 +32,15 @@ def gacha_Omikuji():
     FlavorText = entryKEY["flavortext"]
     ImagePath = SCRIPT_DIR/"images"/f"{RNGpick}.png"
 
-    # print(RNGpick)
-    # print(Character)
-    # print(FlavorText)
-    # print(ImagePath)
+    match Alignment:
+        case "3": Alignment = "Great Blessing 「 大吉 」"
+        case "2": Alignment = "Good Fortune 「 吉 」"
+        case "1": Alignment = "Small Luck 「 小吉 」"
+        case "0": Alignment = "No Alignment 「 無 」"
+        case "-1": Alignment = "Future Blessing 「 末吉 」"
+        case "-2": Alignment = "Small Curse 「 呪 」"
+        case "-3": Alignment = "Great Curse 「 凶 」"
+        case _: raise ValueError(f"Unknown alignment: {Alignment}")
 
     return Character, Alignment , Intro , FlavorText , ImagePath
 
@@ -66,16 +72,32 @@ client = Client(command_prefix="!", intents=intents)
 
 GUILD_ID = discord.Object(id=serverID) #allow Slash Command only for this Discord Server thats defined
 
-#Declaration Slash Commands==========
+#Omikuji Embed version Slash Commands==========
 @client.tree.command(name="omikuji",description="Pull your fortune slip for the incoming year", guild=GUILD_ID)
 async def omikuji(interaction: discord.Interaction):
     chara, alignment, intro, text, img = gacha_Omikuji()
-
-    await interaction.response.send_message(
-        f'{interaction.user.mention}\n'
-        f'Recieved {alignment} from {chara}, {intro}\n'
-        f'{text}'
-        f'\n{img}'
+    embed = discord.Embed(
+        title=f"{alignment}",
+        description=f"Your fortune has led you to {chara}!",
+        color=discord.Color.gold()
     )
+    embed.add_field(name=f"---",value=f"",inline=False)
+    embed.add_field(name=f"",value=f"**{intro}**\n\n{text}",inline=False)
+    file = discord.File(img)
+    embed.set_image(url=f"attachment://{img.name}")
+    await interaction.response.send_message(embed=embed,file=file)
+
+
+# #Omikuji Slash Commands==========
+# @client.tree.command(name="omikujitext",description="Pull your fortune slip for the incoming year", guild=GUILD_ID)
+# async def omikuji(interaction: discord.Interaction):
+#     chara, alignment, intro, text, img = gacha_Omikuji()
+
+#     await interaction.response.send_message(
+#         f'{interaction.user.mention}\n'
+#         f'Recieved {alignment} from {chara}, {intro}\n'
+#         f'{text}'
+#         f'\n{img}'
+#     )
 
 client.run(secret) #Gets the discord bot token from config.yaml

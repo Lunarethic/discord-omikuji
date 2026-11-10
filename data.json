@@ -1,217 +1,217 @@
 {
     "1": {
         "character": "Buwad",
-        "alignment": "Small Luck",
-        "intro": "you got fished",
-        "flavortext": "You have been graced by fish."
+        "alignment": "0",
+        "intro": "you’ve been exposed to toxicity!",
+        "flavortext": "Input Text"
     },
 
     "2": {
         "character": "Snowie",
-        "alignment": "Future Blessing",
+        "alignment": "0",
         "intro": "Dont get cold",
         "flavortext": "Get cold"
     },
 
     "3": {
-        "character": "Luneth / Lethe",
-        "alignment": "Middle Luck",
-        "intro": "Wow its two!",
-        "flavortext": "Double the characters this time?"
+        "character": "Luneth & Lethe",
+        "alignment": "0",
+        "intro": "Expect the strings of fate to bring you prosperity!",
+        "flavortext": "A toxin isn’t always a chemical that physically harms living things. Sometimes it’s an abstract poison that seeps between the cracks of relationships in people, corroding love and trust as it accumulates. \n\n Thankfully, there are medicines for that sort of toxin–self-love and self-awareness among them. Be open to criticism and seek improvement day by day, and the toxins will vanish as if you had used a Full Restore!"
     },
 
     "4": {
         "character": "Yolla",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "5": {
         "character": "Asagi Coresta",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "6": {
-        "character": "Flan / Nemu",
-        "alignment": "No Alignment",
+        "character": "Flan & Nemu",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "7": {
         "character": "Narpy",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "8": {
         "character": "Sorairo Aki",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "9": {
         "character": "Fuwa",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "10": {
-        "character": "Hanako / Ramii",
-        "alignment": "No Alignment",
+        "character": "Hanako & Ramii",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "11": {
-        "character": "Remi / Akashi",
-        "alignment": "No Alignment",
+        "character": "Remi & Akashi",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "12": {
         "character": "Moff",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "13": {
-        "character": "Yun / Suko",
-        "alignment": "No Alignment",
+        "character": "Yun & Suko",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "14": {
         "character": "Vivi",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "15": {
         "character": "Kuro",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "16": {
-        "character": "Owl / Iog",
-        "alignment": "No Alignment",
+        "character": "Owl & Iog",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "17": {
         "character": "Meliach",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "18": {
         "character": "Tsubomi",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "19": {
-        "character": "Watta / Zoe",
-        "alignment": "No Alignment",
+        "character": "Watta & Zoe",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "20": {
         "character": "Tato",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "21": {
         "character": "Trita",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "22": {
-        "character": "Hako / Yuzuki",
-        "alignment": "No Alignment",
+        "character": "Hako & Yuzuki",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "23": {
         "character": "Tsukino",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "24": {
         "character": "Iskra",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "25": {
-        "character": "KeiCyan / Bell",
-        "alignment": "No Alignment",
+        "character": "KeiCyan & Bell",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "26": {
         "character": "Ryne",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "27": {
-        "character": "Asterine / Neko",
-        "alignment": "No Alignment",
+        "character": "Asterine & Neko",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "28": {
         "character": "Cradle",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "29": {
         "character": "Aloy",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "30": {
         "character": "VIVIT",
-        "alignment": "No Alignment",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     },
 
     "31": {
-        "character": "Drifter / Kero",
-        "alignment": "No Alignment",
+        "character": "Drifter & Kero",
+        "alignment": "0",
         "intro": "You pulled for this!",
         "flavortext": "Input Text"
     }
