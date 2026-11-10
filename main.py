@@ -17,6 +17,9 @@ serverID = 896543399124033567 #Sync slash commands to a specific server
 def gacha_Omikuji():
     print('gacha attempt')
 
+    return 0
+
+#=====================================================
 #Class Function for the bot
 class Client(commands.Bot):
     #Runs when the discord bot goes online
@@ -33,9 +36,7 @@ class Client(commands.Bot):
     #Detects and knows from who the messages come from
     async def on_message(self, message):
         if message.author == self.user: return #Disallows the bot from replying to itself
-
-        if message.content.startswith('hello'):
-            await message.channel.send(f'Hi there! {message.author}')
+        #if message.content == 'ping': await message.channel.send('pong')
 
 #-----------------------------------------------------------------
 #=================================================================
@@ -48,14 +49,11 @@ GUILD_ID = discord.Object(id=serverID) #allow Slash Command only for this Discor
 #Declaration Slash Commands==========
 @client.tree.command(name="omikuji",description="Pull your fortune slip for the incoming year", guild=GUILD_ID)
 async def omikuji(interaction: discord.Interaction):
-    gacha_Omikuji()
-    print(f'omikuji command triggered by: {interaction.user}')
-    print(f'rolled a 1')
-    print(f'sending message to the user')
+    result = gacha_Omikuji()
 
     await interaction.response.send_message(
         f'{interaction.user.mention}\n'
-        f'To you who drew Lunar\\Sanco, Haha number!\n'
+        f'To you who drew {result}, Haha number!\n'
         f'Good luck in the coming year!'
     )
 
