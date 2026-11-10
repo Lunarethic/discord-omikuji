@@ -30,6 +30,12 @@ def load_config():
     with open(CONFIG_PATH, "r") as file:
         config = yaml.safe_load(file)
 
+
+    #Exception handling so that the discord bot wont start if theres no TOKEN
+    if not config["credentials"].get("TOKENsecret") or config["credentials"]["TOKENsecret"] == "your_TOKEN_secret_here":
+        print("No TOKEN secret detected please enter your token.")
+        sys.exit(0)
+
     #Returns yaml file as a variable if you call this function
     return config
 
@@ -45,7 +51,6 @@ DEFAULT_CONFIG = {
     "credentials": {
         "TOKENsecret": "your_TOKEN_secret_here"
     }
-
 }
 
 
