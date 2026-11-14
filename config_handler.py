@@ -24,7 +24,8 @@ def load_config():
         print(f"Template create at: {CONFIG_PATH}")
         print("Please edit template file with a text editor and run the script again.")
         print("Press any key to exit...")
-        msvcrt.getch()
+        if sys.platform == "win32": msvcrt.getch()
+        else: input()
         sys.exit(0)
     #===========================================
 
