@@ -2,7 +2,8 @@
 
 cd /opt/discord-omikuji || exit 1
 
-source .venv/bin/activate
-python main.py
-
-screen -S omikuji /opt/discord-omikuji/start.sh
+screen -dmS omikuji bash -c '
+    source /opt/discord-omikuji/.venv/bin/activate
+    cd /opt/discord-omikuji
+    exec python main.py
+'
