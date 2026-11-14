@@ -1,7 +1,9 @@
 import os
 import sys
-import msvcrt
 import yaml
+
+if sys.platform == "win32":
+    import msvcrt
 
 if getattr(sys, 'frozen', False):
     # Running as .exe — use the exe's directory

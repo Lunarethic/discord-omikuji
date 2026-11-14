@@ -1,6 +1,20 @@
-from config_handler import load_config
-
 import sys
+import subprocess
+import importlib.util
+
+required_modules = {
+    "yaml": "PyYAML",
+    "discord": "discord.py"
+}
+
+for module, package in required_modules.items():
+    if importlib.util.find_spec(module) is None:
+        print(f"{package} is missing. Installing...")
+        subprocess.check_call([
+            sys.executable, "-m", "pip", "install", package
+        ])
+#==========================================================
+
 import json
 import random
 
@@ -9,6 +23,8 @@ from pathlib import Path
 import discord
 from discord.ext import commands
 from discord import app_commands
+
+from config_handler import load_config
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
