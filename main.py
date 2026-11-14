@@ -31,7 +31,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 #============================
 config = load_config()                                                                      #Access config data
 secret = config["credentials"]["TOKENsecret"]                                               #Get Credentials
-serverID = 896543399124033567                                                               #Sync slash commands to a specific server
+serverID = config["credentials"]["serverID"]                                                #Sync slash commands to a specific server
 with open(SCRIPT_DIR/"data.json", "r", encoding="utf-8") as file: data = json.load(file)    #Ingest the data.json file as a Python Dictionary
 #========================================================================
 #------------------------------------------------------------------------

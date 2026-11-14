@@ -52,7 +52,8 @@ TEMPLATE_COMMENT = """# ===== Auto-Login Configuration =====
 DEFAULT_CONFIG = {
 
     "credentials": {
-        "TOKENsecret": "your_TOKEN_secret_here"
+        "TOKENsecret": "your_TOKEN_secret_here",
+        "serverID": "your_DISCORDSERVER_ID"
     }
 }
 
